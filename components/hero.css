@@ -1,0 +1,28 @@
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: var(--color-fondo-oscuro);
+}
+
+.hero__title {
+  font-size: 28px;
+}
+
+.hero__text {
+  margin: 20px 0;
+}
+
+.hero__button {
+  padding: 10px 20px;
+  border: 1px solid var(--color-negro);
+  background-color: var(--color-negro);
+  color: var(--color-blanco);
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  margin: 10px 0;
+}
+
+.hero__button:hover {
+  background-color: transparent;
+  color: var(--color-negro);
+}

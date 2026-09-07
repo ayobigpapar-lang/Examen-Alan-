@@ -4,66 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COMERCIO</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" 
-          rel="stylesheet">
-    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header>
-        <h1> COMERCIO </h1>
-        <nav>
-            <a href="#Menu1">Menu1</a>
-            <a href="#Menu2">Menu2</a>
-            <a href="#Menu3">Menu3</a>
-            <a href="#Menu4">Menu4</a>
-            <button >Inscribirse</button>
+    
+    <header class="header">
+        <h1 class="header__title">COMERCIO</h1>
+        <nav class="header__nav">
+            <a href="#Menu1" class="header__link">Menu1</a>
+            <a href="#Menu2" class="header__link">Menu2</a>
+            <a href="#Menu3" class="header__link">Menu3</a>
+            <a href="#Menu4" class="header__link">Menu4</a>
+            <button class="header__button">Inscribirse</button>
         </nav>
     </header>
-        <main>
-            <section class="hero">
-                <h1>¿Listo para empezar?</h1>
-                <p>texto para la sección principal de bienvenida.</p>
-                <button>Inicia prueba gratuita</button>
-            </section>
 
-        
-            <section class="boletin">
-                <h2>Unase a nuestro boletín</h2>
-                <p>Suscribete para recibir actualizaciones,acceder a ofertas exclusivas y más</p>
-                
-                <form>
-                    <label for="nombre"> Su Nombre:</label>
-                    <input type="text" id="nombre" placeholder="Escribe tu nombre">
+    <main>
+        <section class="hero">
+            <h1 class="hero__title">¿Listo para empezar?</h1>
+            <p class="hero__text">texto para la sección principal de bienvenida.</p>
+            <button class="hero__button">Inicia prueba gratuita</button>
+        </section>
 
-                    <label for="email">Su direccion de email</label>
-                    <input type="email" id="email" placeholder="tucorreo@ejemplo.com">
+        <section class="boletin">
+            <h2 class="boletin__title">Únase a nuestro boletín</h2>
+            <p class="boletin__text">Suscríbete para recibir actualizaciones, acceder a ofertas exclusivas y más</p>
+            
+            <form>
+                <label for="nombre" class="boletin__label">Su Nombre:</label>
+                <input type="text" id="nombre" class="boletin__input" placeholder="Escribe tu nombre">
 
-                    <button type="submit">Suscribirse</button>
-                </form>
-            </section>
-        </main>
+                <label for="email" class="boletin__label">Su dirección de email</label>
+                <input type="email" id="email" class="boletin__input" placeholder="tucorreo@ejemplo.com">
 
-        <footer>
-            <div class="footer-columnas">
-                
-                <div class="footer-columna">
-                    <h3>COMERCIO</h3>
-                    <p>&copy; 2025-2026</p>
-                    <p>Terminos-privacidad</p>
-                </div>
+                <button type="submit" class="boletin__button">Suscribirse</button>
+            </form>
+        </section>
+    </main>
 
-                <div class="footer-columna">
-                    <h2>Enlaces</h2>
-                    <p>Productos</p>
-                    <p>caracteristicas</p>
-                    <p>compañia</p>
-                    <p>Recursos</p>
-                </div>
-
+    <footer class="footer">
+        <div class="footer__columns">
+            <div class="footer__column">
+                <h3 class="footer__title">COMERCIO</h3>
+                <p class="footer__text">&copy; 2025-2026</p>
+                <p class="footer__text">Terminos-privacidad</p>
             </div>
-        </footer>
-    
-    
+
+            <div class="footer__column">
+                <h3 class="footer__title">Enlaces</h3>
+                <p class="footer__text">Productos</p>
+                <p class="footer__text">caracteristicas</p>
+                <p class="footer__text">compañia</p>
+                <p class="footer__text">Recursos</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

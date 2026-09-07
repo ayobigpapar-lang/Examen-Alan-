@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--color-negro);
+  color: var(--color-blanco);
+  padding: 50px 20px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer__column {
+  flex: 1 1 200px;
+  text-align: center;
+}
+
+.footer__title {
+  font-size: 28px;
+  margin: 30px 0;
+}
+
+.footer__text,
+.footer__link {
+  margin: 7px 0;
+  display: block;
+  color: var(--color-blanco);
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  color: var(--color-gris);
+}
