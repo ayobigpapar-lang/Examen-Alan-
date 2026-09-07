@@ -42,6 +42,9 @@ body {
 header {
   padding: var(--padding-base);
   background-color: var(--color-fondo-claro);
+  display: flex;               
+  justify-content: space-between; 
+  align-items: center;
 }
 
 header h1 {
@@ -68,10 +71,10 @@ header nav button {
   cursor: pointer;
 }
 
-/* header nav button:last-of-type {
+/*  header nav button:last-of-type {
   display: none;
-}
- */
+} */
+ 
 header nav button:hover {
   background-color: var(--color-negro);
   color: var(--color-blanco);
